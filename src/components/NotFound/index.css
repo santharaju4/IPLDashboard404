@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.not-found-route-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png);
+  background-size: cover;
+  height: 100vh;
+}
+.not-found-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 35px;
+  }
+  .not-found-route-container {
+    background-image: url(https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png);
+    background-size: cover;
+  }
+}
